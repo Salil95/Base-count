@@ -1,0 +1,73 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2513
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset77 MalayalamSangamMN;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 DNA_seq=('TTAGGCCTTAAGGCCGGCCGGTTAATTAATTTGCGTAGCCAGTAGGCCTCGCTACATGCTATATCGA\
+CGGGGGGGCCCCTAGACCACGCTCCGCT')\
+A_
+\f1 \uc0\u3342 \u3363 \u3405 \u3363 \u3330 
+\f0  = 0\
+T_
+\f1 \uc0\u3342 \u3363 \u3405 \u3363 \u3330 
+\f0  = 0\
+G_
+\f1 \uc0\u3342 \u3363 \u3405 \u3363 \u3330 
+\f0  = 0\
+C_
+\f1 \uc0\u3342 \u3363 \u3405 \u3363 \u3330 
+\f0  = 0\
+for i in DNA_seq:\
+if i=='A':\
+A_
+\f1 \uc0\u3342 \u3363 \u3405 \u3363 \u3330 
+\f0  = A_
+\f1 \uc0\u3342 \u3363 \u3405 \u3363 \u3330 
+\f0  + 1\
+if i=='T':\
+T_
+\f1 \uc0\u3342 \u3363 \u3405 \u3363 \u3330 
+\f0  = T_
+\f1 \uc0\u3342 \u3363 \u3405 \u3363 \u3330 
+\f0  + 1\
+if i=='G':\
+G_
+\f1 \uc0\u3342 \u3363 \u3405 \u3363 \u3330 
+\f0  = G_
+\f1 \uc0\u3342 \u3363 \u3405 \u3363 \u3330 
+\f0  + 1\
+if i=='C':\
+C_
+\f1 \uc0\u3342 \u3363 \u3405 \u3363 \u3330 
+\f0  = C_
+\f1 \uc0\u3342 \u3363 \u3405 \u3363 \u3330 
+\f0  + 1\
+DNA_seq_lenght=len(DNA_seq)\
+# lenght of DNA sequence\
+print(DNA_seq_lenght)\
+# percentage of A/T/G/C in the DNA sequence\
+print('percentage of A:',(float(A_
+\f1 \uc0\u3342 \u3363 \u3405 \u3363 \u3330 
+\f0 )/DNA_seq_lenght)*100)\
+print('percentage of T:',(float(T_
+\f1 \uc0\u3342 \u3363 \u3405 \u3363 \u3330 
+\f0 )/DNA_seq_lenght)*100)\
+print('percentage of G:',(float(G_
+\f1 \uc0\u3342 \u3363 \u3405 \u3363 \u3330 
+\f0 )/DNA_seq_lenght)*100)\
+print('percentage of C:',(float(C_
+\f1 \uc0\u3342 \u3363 \u3405 \u3363 \u3330 
+\f0 )/DNA_seq_lenght)*100)\
+# Ratio of Nucleotides\
+print('ratio of A/G :',A_
+\f1 \uc0\u3342 \u3363 \u3405 \u3363 \u3330 
+\f0 /G_
+\f1 \uc0\u3342 \u3363 \u3405 \u3363 \u3330 
+\f0 )\
+print('ratio of T/C :',T_
+\f1 \uc0\u3342 \u3363 \u3405 \u3363 \u3330 
+\f0 /C_
+\f1 \uc0\u3342 \u3363 \u3405 \u3363 \u3330 
+\f0 )}
